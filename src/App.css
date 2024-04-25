@@ -136,7 +136,7 @@ span {
   font-size: 12px;
   color: white;
   background-image: linear-gradient(to right, #212a40, #2b708e);
-  height: 91vh;
+  height: 94vh;
   gap: 90px;
 }
 
@@ -177,7 +177,7 @@ span {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 20px;
   align-items: center;
   justify-content: center;
 }
@@ -209,7 +209,7 @@ span {
 }
 
 .project {
-  height: 48%;
+  height: 45%;
   width: 45%;
   border: 2px solid black;
   background-color: #2b708e;
@@ -218,7 +218,7 @@ span {
 }
 
 .links {
-  height: 90px;
+  height: 50px;
   background-color: rgba(33, 42, 64, 0.6);
   display: flex;
   justify-content: space-evenly;
@@ -235,6 +235,12 @@ span {
   justify-content: center;
   align-items: center;
 }
+.slider {
+  display: none;
+}
+.s-media {
+  width: 20%;
+}
 
 #read-me {
   border: 1px solid black color(srgb red green blue);
@@ -248,8 +254,8 @@ span {
 }
 .aboutContainer {
   height: 100vh;
+  padding-top: 10%;
   padding-inline: 3%;
-  padding-top: 30%;
   border-top: 0.5px solid white;
   border-bottom: 0.5px solid white;
 }
@@ -393,7 +399,7 @@ form {
   height: 65%;
 }
 .follow-title {
-  font-size: 150px;
+  font-size: 70px;
   display: flex;
   align-items: end;
   margin-left: 5%;
@@ -413,7 +419,7 @@ footer {
   margin-left: 3%;
 }
 #link {
-  width: 15%;
+  width: 32%;
   display: flex;
   justify-content: space-between;
   margin-right: 3%;
@@ -642,9 +648,21 @@ link {
   .about-title {
     margin-left: 0%;
   }
+  .follow-title {
+    font-size: 150px;
+  }
+  #link {
+    width: 10%;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
+  .follow-title {
+    font-size: 150px;
+  }
+  #link {
+    width: 10%;
+  }
   .navBar {
     display: flex;
     justify-content: space-between;
@@ -673,6 +691,7 @@ link {
   #hero-section {
     flex-direction: row;
     gap: 90px;
+    height: 91vh;
   }
   #myPhoto {
     width: 40%;

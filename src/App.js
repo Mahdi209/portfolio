@@ -28,9 +28,11 @@ function App() {
           <FullpageSection>
             <MoreAboutMe id="about" />
           </FullpageSection>
+
           <FullpageSection>
             <ContactMe id="contact" />
           </FullpageSection>
+
           <FullpageSection>
             <FollowMe id="FollowMe" />
           </FullpageSection>

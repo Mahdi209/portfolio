@@ -34,13 +34,13 @@ export default function Project() {
               className="web-link"
               href="https://github.com/Mahdi209/react-todo-starting-point"
             >
-              <FaGithub size={"40"} />
+              <FaGithub size={"20"} />
             </a>
             <a
               className="web-link"
               href="https://todoapp-myproject.netlify.app/"
             >
-              <SiNetlify size={"40"} />
+              <SiNetlify size={"20"} />
             </a>
           </div>
         </div>
@@ -52,13 +52,13 @@ export default function Project() {
               className="web-link"
               href="https://github.com/Mahdi209/JS-Pokemon_API_Project"
             >
-              <FaGithub size={"40"} />
+              <FaGithub size={"20"} />
             </a>
             <a
               className="web-link"
               href="https://pokemon-card-task.netlify.app/"
             >
-              <SiNetlify size={"40"} />
+              <SiNetlify size={"20"} />
             </a>
           </div>
         </div>
@@ -74,7 +74,7 @@ export default function Project() {
               <FaGithub size={"40"} />
             </a>
             <a className="web-link" href="https://main--toto-web.netlify.app/">
-              <SiNetlify size={"40"} />
+              <SiNetlify size={"20"} />
             </a>
           </div>
         </div>
@@ -87,13 +87,13 @@ export default function Project() {
               href="https://github.com/Mahdi209/shop-Project"
               className="web-link"
             >
-              <FaGithub size={"40"} />
+              <FaGithub size={"20"} />
             </a>
             <a
               href="https://bestshop-project.netlify.app/"
               className="web-link"
             >
-              <SiNetlify size={"40"} />
+              <SiNetlify size={"20"} />
             </a>
           </div>
         </div>
