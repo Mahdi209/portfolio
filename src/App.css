@@ -98,6 +98,9 @@ a {
   position: relative;
   color: white;
 }
+#logo {
+  font-size: 20px;
+}
 
 .sm-nav {
   background-color: rgba(23, 41, 54, 0.9);
@@ -255,7 +258,7 @@ span {
 }
 .aboutContainer {
   height: 100vh;
-  padding-top: 10%;
+  padding-top: 30%;
   padding-inline: 3%;
   border-top: 0.5px solid white;
   border-bottom: 0.5px solid white;
@@ -351,6 +354,7 @@ h2 {
 #contact {
   height: 100vh;
   width: 100%;
+  padding-top: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -663,12 +667,32 @@ link {
   #link {
     width: 10%;
   }
+  #more {
+    font-size: 89px;
+  }
+  #logo {
+    font-size: 30px;
+  }
+  #contact-title {
+    margin-top: 0%;
+  }
+  .input {
+    font-size: 20px;
+    height: 10%;
+    padding: 1%;
+  }
+
+  #btn {
+    font-size: 25px;
+
+    padding-top: 15px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
   #contact-title {
     font-size: 150px;
-    margin-top: 6%;
+    margin-top: 0%;
   }
   .follow-title {
     font-size: 150px;
@@ -831,6 +855,9 @@ link {
     align-self: center;
     text-align: center;
   }
+  #more {
+    font-size: 89px;
+  }
   .about-title {
     margin-left: 0%;
   }
@@ -844,5 +871,8 @@ link {
     font-size: 25px;
 
     padding-top: 15px;
+  }
+  #logo {
+    font-size: 30px;
   }
 }

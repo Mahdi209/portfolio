@@ -19,7 +19,7 @@ export default function NavBar() {
   return (
     <>
       <nav className="navBar">
-        <div>Mohammed Mahdi</div>
+        <div id="logo">Mohammed Mahdi</div>
         <ul className="contact">
           <li>
             <Link to="home" duration={500}>

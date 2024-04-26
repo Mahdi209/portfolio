@@ -18,7 +18,9 @@ export default function FollowMe() {
       <footer>
         <h4 id="name">Mohammed Mahdi</h4>
         <div id="link">
-          <Link to="home">Home</Link>
+          <Link to="home" duration={500}>
+            Home
+          </Link>
           <a className="github" href="https://github.com/Mahdi209">
             Github
           </a>
