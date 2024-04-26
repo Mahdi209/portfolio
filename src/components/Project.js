@@ -4,7 +4,14 @@ import myPhoto from "../assets/htmlProject.png";
 import todo from "../assets/todo.png";
 import food from "../assets/food.png";
 import pokemon from "../assets/pokemon.png";
-
+import {
+  Card,
+  CardHeader,
+  CardBody,
+  CardFooter,
+  Typography,
+  Tooltip,
+} from "@material-tailwind/react";
 export default function Project() {
   return (
     <div id="project-container">
@@ -16,11 +23,6 @@ export default function Project() {
           Greetings, fellow digital explorers! I am Mohammed Mahdi, a passionate
           and innovative developer dedicated to crafting immersive digital
           experiences. Welcome to my online abode
-          <br />
-          <br />
-          <br />
-          Greetings, fellow digital explorers! I am Mohammed Mahdi, a passionate
-          and innovative developer
         </p>
         <button id="read-me">Read More</button>
       </div>

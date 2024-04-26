@@ -64,22 +64,22 @@ export default function NavBar() {
           </div>
           <ul>
             <li>
-              <Link to="home" smooth={true} duration={500}>
+              <Link to="home" duration={500}>
                 Home
               </Link>
             </li>
             <li>
-              <Link to="project" smooth={true} duration={500}>
+              <Link to="project" duration={500}>
                 Project
               </Link>
             </li>
             <li>
-              <Link to="about" smooth={true} duration={500}>
+              <Link to="about" duration={500}>
                 About Me
               </Link>
             </li>
             <li>
-              <Link to="contact" smooth={true} duration={500}>
+              <Link to="contact" duration={500}>
                 Contact Me
               </Link>
             </li>
