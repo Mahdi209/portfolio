@@ -4,14 +4,7 @@ import myPhoto from "../assets/htmlProject.png";
 import todo from "../assets/todo.png";
 import food from "../assets/food.png";
 import pokemon from "../assets/pokemon.png";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Typography,
-  Tooltip,
-} from "@material-tailwind/react";
+
 export default function Project() {
   return (
     <div id="project-container">
